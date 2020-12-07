@@ -1,0 +1,32 @@
+.button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  border: none;
+  border-radius: 4px;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.button__primary {
+  background: var(--accent);
+  color: var(--white);
+}
+
+.button__outline {
+  background: var(--white);
+  color: var(--darkblue);
+  border: 1px solid #bcd0e5;
+}
+
+.button__size__s {
+  padding: 11px 24px;
+}
+
+.button__outline,
+.button__size__s {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
