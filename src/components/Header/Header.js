@@ -4,6 +4,8 @@ import { Icon } from "src/components/Icons/Icon";
 import Button from "src/components/Button/Button";
 
 const Header = () => {
+  const mainMenuList = ["Product", "Customers", "Pricing", "Resources"];
+
   return (
     <header className="header">
       <div className="container">
@@ -17,18 +19,11 @@ const Header = () => {
         {/* Header Navigation */}
         <nav className="header__nav">
           <ul className="header__nav__list">
-            <li>
-              <a href="#">Product</a>
-            </li>
-            <li>
-              <a href="#">Customers</a>
-            </li>
-            <li>
-              <a href="#">Pricing</a>
-            </li>
-            <li>
-              <a href="#">Resources</a>
-            </li>
+            {mainMenuList.map((item) => (
+              <li>
+                <a href="#">{item}</a>
+              </li>
+            ))}
           </ul>
 
           <ul className="header__nav__buttons">

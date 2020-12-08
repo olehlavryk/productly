@@ -11,7 +11,7 @@ const Button = ({ children, size, mode, ...props }) => {
         props.className || ""
       }`}
     >
-      {children}
+      {children && children}
     </button>
   );
 };

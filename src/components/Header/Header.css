@@ -3,13 +3,14 @@
 }
 
 .header > .container {
+  width: 1125px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
 .header__logo {
-  margin-left: 8px;
+  margin-left: 7px;
 }
 
 .header__nav {
@@ -35,6 +36,10 @@
   font-size: 14px;
   line-height: 28px;
   color: var(--black);
+}
+
+.header__nav__list li a:hover {
+  color: var(--accent);
 }
 
 .header__nav__list,

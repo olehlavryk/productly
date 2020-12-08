@@ -1,0 +1,21 @@
+.footer__subscribe {
+  margin-top: 95px;
+}
+
+.footer__subscribe input[type="email"],
+.footer__subscribe input[type="text"] {
+  width: 325px;
+  background: #ffffff;
+  border: 1px solid #bcd0e5;
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding: 6px 0 6px 10px;
+  font-size: 14px;
+  line-height: 32px;
+}
+
+.footer__subscribe button[type="submit"] {
+  margin-top: 21px;
+  display: block;
+  padding: 8px 16px 6px 16px;
+}

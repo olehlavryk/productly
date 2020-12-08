@@ -5,13 +5,16 @@
 :root {
   --white: #fff;
   --black: #000;
+  --brown: #544837;
   --black-brown: #2f281e;
   --accent: #ff9900;
+  --accent-darker: #e68a00;
   --darkblue: #173a56;
+  --redlight: #ff4e4a;
 }
 
 .container {
-  width: 1125px;
+  width: 1110px;
   margin: 0 auto;
 }
 
@@ -29,4 +32,18 @@
 
 body {
   font-family: Poppins, sans-serif;
+}
+
+/* Form */
+.error__label {
+  font-size: 12px;
+  color: var(--redlight);
+  display: block;
+  margin: 8px 0 10px 0;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus {
+  outline: 1px solid var(--accent);
+  border-radius: 4px;
 }

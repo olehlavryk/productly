@@ -1,0 +1,23 @@
+.footer > .container {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid rgba(188, 208, 229, 0.496913);
+  padding-top: 102px;
+}
+
+.footer__list__left,
+.footer__list__right {
+  margin-top: 65px;
+}
+
+.footer__list__left li a,
+.footer__list__right li a {
+  color: var(--brown);
+  font-size: 16px;
+  line-height: 35px;
+}
+
+.footer__list__left li a:hover,
+.footer__list__right li a:hover {
+  color: var(--accent);
+}
