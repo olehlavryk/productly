@@ -36,6 +36,10 @@
   padding: 11px 24px;
 }
 
+.button__size__m {
+  padding: 14px 41px;
+}
+
 .button__outline,
 .button__size__s {
   padding-top: 10px;

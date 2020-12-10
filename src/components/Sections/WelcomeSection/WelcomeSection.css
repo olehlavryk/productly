@@ -1,0 +1,55 @@
+.welcome__section {
+  margin-top: 33px;
+}
+
+.welcome__section > .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left__side {
+  max-width: 460px;
+}
+
+.left__side p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+  color: var(--brown);
+  text-shadow: var(--text-shadow-default);
+}
+
+.btn__group {
+  display: flex;
+  align-items: center;
+  margin-top: 60px;
+}
+
+.left__side_action_btn {
+  margin-right: 30px;
+}
+
+.left__side_video_link {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration-line: underline;
+  color: var(--accent);
+  display: flex;
+  align-items: center;
+}
+
+.left__side_video_link::before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  background: url(./images/triangle.png) 0 0 no-repeat;
+  margin-right: 8px;
+}
+
+.right__side__preview {
+  max-width: 605px;
+}

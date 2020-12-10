@@ -17,23 +17,23 @@ const Footer = () => {
       <div className="container">
         {/* Footer logo */}
         <div className="footer__logo">
-          <a href="#">
+          <a href="/#">
             <Icon name="logo" />
           </a>
         </div>
         {/* Footer list left */}
         <ul className="footer__list__left">
           {footerList1.map((item) => (
-            <li>
-              <a href="#">{item}</a>
+            <li key={item}>
+              <a href="/#">{item}</a>
             </li>
           ))}
         </ul>
         {/* Footer list right */}
         <ul className="footer__list__right">
           {footerList2.map((item) => (
-            <li>
-              <a href="#">{item}</a>
+            <li key={item}>
+              <a href="/#">{item}</a>
             </li>
           ))}
         </ul>

@@ -11,6 +11,12 @@
   --accent-darker: #e68a00;
   --darkblue: #173a56;
   --redlight: #ff4e4a;
+
+  --text-shadow-default: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.App {
+  min-height: 100vh;
 }
 
 .container {
@@ -34,6 +40,13 @@ body {
   font-family: Poppins, sans-serif;
 }
 
+/* Images responsive */
+.img__responsive {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
 /* Form */
 .error__label {
   font-size: 12px;
@@ -46,4 +59,14 @@ input[type="text"]:focus,
 input[type="email"]:focus {
   outline: 1px solid var(--accent);
   border-radius: 4px;
+}
+
+/* Typography */
+.content h1 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 44px;
+  line-height: 54px;
+  color: var(--black-brown);
+  text-shadow: var(--text-shadow-default);
 }

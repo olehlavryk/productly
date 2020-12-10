@@ -11,7 +11,7 @@ const Header = () => {
       <div className="container">
         {/* Logo */}
         <div className="header__logo">
-          <a href="#">
+          <a href="/#">
             <Icon name="logo" />
           </a>
         </div>
@@ -20,8 +20,8 @@ const Header = () => {
         <nav className="header__nav">
           <ul className="header__nav__list">
             {mainMenuList.map((item) => (
-              <li>
-                <a href="#">{item}</a>
+              <li key={item}>
+                <a href="/#">{item}</a>
               </li>
             ))}
           </ul>

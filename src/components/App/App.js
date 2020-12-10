@@ -1,5 +1,6 @@
 import React from "react";
 import Header from "src/components/Header/Header";
+import Main from "src/components/Main/Main";
 import Footer from "src/components/Footer/Footer";
 import "./css/App.css";
 
@@ -7,10 +8,7 @@ const App = () => {
   return (
     <>
       <Header />
-      <br />
-      <br />
-      <br />
-      <br />
+      <Main />
       <Footer />
       {/* <main>
         <div className="container">Content</div>
