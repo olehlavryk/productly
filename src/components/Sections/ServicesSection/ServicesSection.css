@@ -1,0 +1,40 @@
+.services__section {
+  margin-top: 125px;
+  overflow: hidden;
+  min-height: 390px;
+  background: url("./images/services__bg.png") center bottom no-repeat;
+  background-size: cover;
+  padding-bottom: 90px;
+}
+
+.services__title {
+  max-width: 540px;
+  text-align: center;
+  margin: 0 auto 54px auto;
+}
+
+.services__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.services__list li {
+  max-width: 240px;
+}
+
+.services__list li p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: var(--brown);
+}
+
+.services__list_title {
+  margin-bottom: 13px;
+}
+
+.services__action_btn {
+  margin: 45px auto 0 auto;
+  display: block;
+  padding: 14px 42px;
+}

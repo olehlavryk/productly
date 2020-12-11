@@ -70,3 +70,17 @@ input[type="email"]:focus {
   color: var(--black-brown);
   text-shadow: var(--text-shadow-default);
 }
+
+.content h2 {
+  font-size: 36px;
+  line-height: 54px;
+  color: var(--black-brown);
+  font-weight: bold;
+}
+
+.content h3 {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 33px;
+  color: var(--black-brown);
+}
