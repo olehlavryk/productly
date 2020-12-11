@@ -23,13 +23,13 @@ const ServicesSection = () => {
           </li>
           <li>
             <Icon name="preferenceService" />
-            <h3 className="services__list_title">Design surveys</h3>
-            <p>Sports betting, lottery and bingo playing for the fun</p>
+            <h3 className="services__list_title">Preference tests</h3>
+            <p>The Myspace page defines the individual.</p>
           </li>
           <li>
             <Icon name="fastTestService" />
-            <h3 className="services__list_title">Design surveys</h3>
-            <p>Sports betting, lottery and bingo playing for the fun</p>
+            <h3 className="services__list_title">Five second tests</h3>
+            <p>Personal choices and the overall personality of the person.</p>
           </li>
         </ul>
         <Button className="services__action_btn">Sign up now</Button>

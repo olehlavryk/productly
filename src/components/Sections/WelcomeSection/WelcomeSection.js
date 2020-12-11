@@ -8,7 +8,9 @@ const WelcomeSection = () => {
     <section className="welcome__section">
       <div className="container">
         <div className="left__side">
-          <h1>The Design Thinking superpowers</h1>
+          <h1 className="welcome__section__title">
+            The Design Thinking superpowers
+          </h1>
           <p>
             Tools, tutorials, design and innovation experts, all in one place!
             The most intuitive way to imagine your next user experience.
