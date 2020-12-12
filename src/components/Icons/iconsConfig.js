@@ -1,7 +1,7 @@
 import React from "react";
 
 export const iconsConfig = {
-  logo: () => (
+  logo: ({ ...props }) => (
     <svg
       width="187"
       height="32"
@@ -9,6 +9,7 @@ export const iconsConfig = {
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
       xmlnsXlink="http://www.w3.org/1999/xlink"
+      {...props}
     >
       <path
         fillRule="evenodd"
@@ -49,13 +50,14 @@ export const iconsConfig = {
       </defs>
     </svg>
   ),
-  testService: ({ color = "#7752BE" }) => (
+  testService: ({ color = "#7752BE", ...props }) => (
     <svg
       width="51"
       height="50"
       viewBox="0 0 51 50"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
+      {...props}
     >
       <g clipPath="url(#clip0)">
         <g opacity="0.848005" filter="url(#filter0_f)">
@@ -95,13 +97,14 @@ export const iconsConfig = {
       </defs>
     </svg>
   ),
-  designService: ({ color = "#FAB005" }) => (
+  designService: ({ color = "#FAB005", ...props }) => (
     <svg
       width="50"
       height="50"
       viewBox="0 0 50 50"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
+      {...props}
     >
       <g clipPath="url(#clip0)">
         <g opacity="0.848005" filter="url(#filter0_f)">
@@ -141,13 +144,14 @@ export const iconsConfig = {
       </defs>
     </svg>
   ),
-  preferenceService: ({ color = "#F03E3D" }) => (
+  preferenceService: ({ color = "#F03E3D", ...props }) => (
     <svg
       width="50"
       height="50"
       viewBox="0 0 50 50"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
+      {...props}
     >
       <g clipPath="url(#clip0)">
         <g opacity="0.848005" filter="url(#filter0_f)">
@@ -187,13 +191,14 @@ export const iconsConfig = {
       </defs>
     </svg>
   ),
-  fastTestService: ({ color = "#4DADF7" }) => (
+  fastTestService: ({ color = "#4DADF7", ...props }) => (
     <svg
       width="50"
       height="50"
       viewBox="0 0 50 50"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
+      {...props}
     >
       <g clipPath="url(#clip0)">
         <g opacity="0.848005" filter="url(#filter0_f)">
@@ -231,6 +236,47 @@ export const iconsConfig = {
           <rect width="50" height="50" fill="white" />
         </clipPath>
       </defs>
+    </svg>
+  ),
+  bullet: ({ color = "#FF9900", ...props }) => (
+    <svg
+      width="35"
+      height="35"
+      viewBox="0 0 35 35"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      {...props}
+    >
+      <rect
+        x="1.45833"
+        y="1.45833"
+        width="32.0833"
+        height="32.0833"
+        rx="12.3958"
+        fill={color}
+      />
+      <rect
+        x="1.45833"
+        y="1.45833"
+        width="32.0833"
+        height="32.0833"
+        rx="12.3958"
+        stroke="white"
+        stroke-width="2.91667"
+      />
+      <rect
+        x="1.45833"
+        y="1.45833"
+        width="32.0833"
+        height="32.0833"
+        rx="12.3958"
+        stroke={color}
+        strokeWidth="2.91667"
+      />
+      <path
+        d="M25.7657 12.2393C25.4533 11.9202 24.9468 11.9202 24.6343 12.2393L15.0498 22.0277L11.3657 18.2653C11.0533 17.9462 10.5468 17.9462 10.2343 18.2653C9.92189 18.5843 9.92189 19.1016 10.2343 19.4207L14.4841 23.7608C14.7964 24.0798 15.3033 24.0796 15.6155 23.7608L25.7657 13.3947C26.0781 13.0757 26.0781 12.5584 25.7657 12.2393Z"
+        fill="white"
+      />
     </svg>
   ),
 };
