@@ -262,7 +262,7 @@ export const iconsConfig = {
         height="32.0833"
         rx="12.3958"
         stroke="white"
-        stroke-width="2.91667"
+        strokeWidth="2.91667"
       />
       <rect
         x="1.45833"
