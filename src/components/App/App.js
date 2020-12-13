@@ -10,12 +10,6 @@ const App = () => {
       <Header />
       <Main />
       <Footer />
-      {/* <main>
-        <div className="container">Content</div>
-      </main>
-      <footer>
-        <div className="container">Footer</div>
-      </footer> */}
     </>
   );
 };

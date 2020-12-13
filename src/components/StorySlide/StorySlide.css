@@ -1,0 +1,48 @@
+.story__slide {
+  max-width: 345px;
+  width: 100%;
+}
+
+.story__preview {
+  display: block;
+  margin-bottom: 25px;
+}
+
+.story__preview > img {
+  border-radius: 8px 8px 0 0;
+}
+
+.story__slide:hover .story__title a {
+  color: var(--accent);
+}
+
+.story__meta_box {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  color: var(--brown);
+  margin-bottom: 12px;
+}
+
+.story__author {
+  margin-right: 5px;
+}
+
+.story__author::after {
+  padding-left: 5px;
+  content: "|";
+  color: var(--brown);
+  display: inline-block;
+}
+
+.story__title a {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 34px;
+  color: var(--black-brown);
+}
+
+.story__title a:hover {
+  color: var(--accent);
+}

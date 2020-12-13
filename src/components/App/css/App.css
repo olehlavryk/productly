@@ -25,6 +25,7 @@ p {
   --darkblue: #173a56;
   --lightblue: #567592;
   --redlight: #ff4e4a;
+  --lightgrey: #efefef;
 
   --text-shadow-default: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }

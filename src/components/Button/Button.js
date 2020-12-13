@@ -16,7 +16,7 @@ const Button = ({ children, size, mode, ...props }) => {
   );
 };
 
-Button.prototype = {
+Button.propTypes = {
   children: T.string.isRequired,
   size: T.string,
   mode: T.string,

@@ -1,0 +1,21 @@
+.stories__section {
+  margin-top: 33px;
+}
+
+.stories__title_block {
+  margin-bottom: 55px;
+}
+
+.stories__title {
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 51px;
+  color: var(--black-brown);
+}
+
+.stories__description {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: var(--brown);
+}
