@@ -1,6 +1,6 @@
 import React from "react";
-import "./StorySlide.css";
 import T from "prop-types";
+import "./StorySlide.css";
 
 const StorySlide = ({ story }) => {
   const { preview, url, author, date, title } = story;
