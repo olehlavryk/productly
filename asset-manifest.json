@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/productly/static/css/main.4b17c19b.chunk.css",
+    "main.js": "/productly/static/js/main.cb758e67.chunk.js",
+    "main.js.map": "/productly/static/js/main.cb758e67.chunk.js.map",
+    "runtime-main.js": "/productly/static/js/runtime-main.5f83e840.js",
+    "runtime-main.js.map": "/productly/static/js/runtime-main.5f83e840.js.map",
+    "static/js/2.91f66756.chunk.js": "/productly/static/js/2.91f66756.chunk.js",
+    "static/js/2.91f66756.chunk.js.map": "/productly/static/js/2.91f66756.chunk.js.map",
+    "index.html": "/productly/index.html",
+    "static/css/main.4b17c19b.chunk.css.map": "/productly/static/css/main.4b17c19b.chunk.css.map",
+    "static/js/2.91f66756.chunk.js.LICENSE.txt": "/productly/static/js/2.91f66756.chunk.js.LICENSE.txt",
+    "static/media/avatar1.71eacc1e.png": "/productly/static/media/avatar1.71eacc1e.png",
+    "static/media/avatar2.7753e658.png": "/productly/static/media/avatar2.7753e658.png",
+    "static/media/avatar3.a4f9ba52.png": "/productly/static/media/avatar3.a4f9ba52.png",
+    "static/media/avatar4.07e1fbb5.png": "/productly/static/media/avatar4.07e1fbb5.png",
+    "static/media/avatar5.46bf134f.png": "/productly/static/media/avatar5.46bf134f.png",
+    "static/media/preference1.adad452b.png": "/productly/static/media/preference1.adad452b.png",
+    "static/media/preference2.7eb7214f.png": "/productly/static/media/preference2.7eb7214f.png",
+    "static/media/preference3.c79d0a50.png": "/productly/static/media/preference3.c79d0a50.png",
+    "static/media/ServicesSection.css": "/productly/static/media/services__bg.17a317d4.png",
+    "static/media/story1.14735c14.png": "/productly/static/media/story1.14735c14.png",
+    "static/media/story2.039cbb0b.png": "/productly/static/media/story2.039cbb0b.png",
+    "static/media/story3.86a557ac.png": "/productly/static/media/story3.86a557ac.png",
+    "static/media/TeamSection.css": "/productly/static/media/team_bg.7a533a91.png",
+    "static/media/welcome_bg.ae0ef7c2.png": "/productly/static/media/welcome_bg.ae0ef7c2.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5f83e840.js",
+    "static/js/2.91f66756.chunk.js",
+    "static/css/main.4b17c19b.chunk.css",
+    "static/js/main.cb758e67.chunk.js"
+  ]
+}
