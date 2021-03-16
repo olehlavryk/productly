@@ -1,9 +1,9 @@
 import React from "react";
-import "./PreferencesSection.css";
 import preference1 from "./images/preference1.png";
 import preference2 from "./images/preference2.png";
 import preference3 from "./images/preference3.png";
 import { Icon } from "src/components/Icons/Icon";
+import "./PreferencesSection.css";
 
 const PreferencesSection = () => {
   return (

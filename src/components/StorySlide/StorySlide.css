@@ -1,6 +1,23 @@
 .story__slide {
   max-width: 345px;
-  width: 100%;
+}
+
+@media all and (max-width: 991px) {
+  .story__slide {
+    width: calc(100% - 20px);
+  }
+
+  .slick-slide > div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+
+@media all and (min-width: 992px) {
+  .story__slide {
+    width: calc(100% - 30px);
+  }
 }
 
 .story__preview {

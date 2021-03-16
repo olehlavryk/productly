@@ -33,8 +33,31 @@ p {
 /* Basic rules */
 .App {
   min-height: 100vh;
+  overflow: hidden;
 }
 
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1110px;
+  }
+}
+/*
 .container {
   width: 1110px;
   margin: 0 auto;
@@ -50,7 +73,7 @@ p {
   .container {
     width: 750px;
   }
-}
+} */
 
 body {
   font-family: Poppins, sans-serif;

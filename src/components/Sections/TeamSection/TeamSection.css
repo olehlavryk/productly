@@ -1,7 +1,7 @@
 .team__section {
   margin-top: 150px;
   height: 835px;
-  background: url("./images/team_bg.png") 0 0 no-repeat;
+  background: url("./images/team_bg.png") 50% 0% no-repeat;
   background-size: cover;
 }
 
@@ -10,7 +10,8 @@
 }
 
 .team__section__content {
-  width: 542px;
+  max-width: 542px;
+  width: 100%;
   padding-top: 230px;
   padding-bottom: 135px;
   margin: 0 auto 0 auto;
@@ -33,10 +34,18 @@
   padding: 15px 31px 14px 30px;
 }
 
+
 /* Members positions */
 .team__members__list .member1 {
   top: 37%;
-  left: -1.7%;
+  left: 1.7%;
+}
+
+@media all and (max-width:767px) {
+  .team__members__list .member1 {
+    top: 15%;
+    left: 1.7%;
+  }
 }
 
 .team__members__list .member2 {
@@ -51,10 +60,16 @@
 
 .team__members__list .member4 {
   top: 81%;
-  right: -1.4%;
+  right: 1.7%;
 }
 
 .team__members__list .member5 {
   top: 26%;
-  right: 0%;
+  right: 0;
+}
+
+@media all and (max-width:767px) {
+  .team__members__list .member5 {
+    top: 10%;
+  }
 }

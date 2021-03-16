@@ -16,10 +16,22 @@
 .services__list {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+}
+@media all and (max-width: 991px) {
+  .services__list {
+    justify-content: center;
+  }
 }
 
 .services__list li {
   max-width: 240px;
+}
+
+@media all and (max-width: 991px) {
+  .services__list li {
+    margin-bottom: 40px;
+  }
 }
 
 .services__list li p {

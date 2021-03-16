@@ -95,7 +95,7 @@ export const members = [
     id: uuidv4(),
     avatar: avatar2,
     thought: "I can design you website",
-    thoughtDirection: "left",
+    thoughtDirection: "right",
   },
   {
     id: uuidv4(),
@@ -116,3 +116,5 @@ export const members = [
     thoughtDirection: "left",
   },
 ];
+
+export const mainMenuList = ["Product", "Customers", "Pricing", "Resources"];

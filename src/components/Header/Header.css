@@ -1,9 +1,8 @@
 .header {
-  margin-top: 35px;
+  padding-top: 35px;
 }
 
 .header > .container {
-  width: 1125px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -14,8 +13,14 @@
 }
 
 .header__nav {
-  display: flex;
-  align-items: center;
+  display: none;
+}
+
+@media all and (min-width: 1200px) {
+  .header__nav {
+    display: flex;
+    align-items: center;
+  }
 }
 
 .header__nav__list li {

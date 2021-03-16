@@ -1,7 +1,7 @@
 import React from "react";
 import Button from "src/components/Button/Button";
-import "./ServicesSection.css";
 import { Icon } from "src/components/Icons/Icon";
+import "./ServicesSection.css";
 
 const ServicesSection = () => {
   return (

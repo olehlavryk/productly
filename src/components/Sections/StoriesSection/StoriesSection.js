@@ -1,19 +1,37 @@
 import React from "react";
 import Slider from "react-slick";
-import "./StoriesSection.css";
-import "./slick.css";
-import "./slick-theme.css";
 import StorySlide from "src/components/StorySlide/StorySlide";
 import { stories } from "src/config/config";
+import "./slick.css";
+import "./slick-theme.css";
+import "./StoriesSection.css";
 
 const StoriesSection = () => {
   const settings = {
     dots: true,
+    arrows: false,
     infinite: true,
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 3,
-    centerPadding: 34,
+    initialSlide: 0,
+    responsive: [
+      {
+        breakpoint: 767,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          initialSlide: 2,
+        },
+      },
+      {
+        breakpoint: 539,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
   };
 
   return (

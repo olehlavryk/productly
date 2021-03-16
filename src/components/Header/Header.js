@@ -2,10 +2,9 @@ import React from "react";
 import "./Header.css";
 import { Icon } from "src/components/Icons/Icon";
 import Button from "src/components/Button/Button";
+import { mainMenuList } from "src/config/config";
 
 const Header = () => {
-  const mainMenuList = ["Product", "Customers", "Pricing", "Resources"];
-
   return (
     <header className="header">
       <div className="container">

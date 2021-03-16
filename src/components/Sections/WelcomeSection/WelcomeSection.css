@@ -8,9 +8,32 @@
   align-items: center;
 }
 
+@media all and (max-width: 991px) {
+  .welcome__section > .container {
+    flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
 .left__side {
   max-width: 460px;
 }
+
+@media all and (max-width: 991px) {
+  .left__side {
+    margin-bottom: 60px;
+  }
+}
+
+@media all and (min-width: 992px) and (max-width: 1199px) {
+  .left__side, .right__side {
+    width: 50%;
+  }
+}
+
 
 .welcome__section__title {
   margin-top: 35px;

@@ -1,8 +1,8 @@
 import React from "react";
 import Button from "src/components/Button/Button";
 import TeamMember from "src/components/TeamMember/TeamMember";
-import "./TeamSection.css";
 import { members } from "src/config/config";
+import "./TeamSection.css";
 
 const TeamSection = () => {
   return (

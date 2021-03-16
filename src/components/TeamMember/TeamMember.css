@@ -23,6 +23,14 @@
   align-self: flex-start;
 }
 
+
+@media all and (max-width: 767px) {
+  .point__cloud {
+    display: none;
+  }
+}
+
+
 .point__cloud::before {
   position: absolute;
   content: "";
